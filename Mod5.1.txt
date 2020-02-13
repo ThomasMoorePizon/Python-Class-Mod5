@@ -1,0 +1,8 @@
+def wrapper (a):
+     def candy (b):
+             print ("Candy")
+             return a+b
+     return candy
+
+ft = wrapper(4)
+print (ft(5))
