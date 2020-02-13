@@ -1,0 +1,4 @@
+def mid_insert(target,insert):
+     fpart = math.floor(len(target)/2)
+     lpart = math.floor(len(target)/2)
+     return target[:fpart]+insert+target[lpart:]
